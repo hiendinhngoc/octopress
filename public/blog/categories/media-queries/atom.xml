@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Hien Dinh Ngoc Blog]]></title>
-  <link href="http://hiendinhngoc.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Media Queries | Hien Dinh Ngoc Blog]]></title>
+  <link href="http://hiendinhngoc.com/blog/categories/media-queries/atom.xml" rel="self"/>
   <link href="http://hiendinhngoc.com/"/>
   <updated>2015-01-14T12:20:19+07:00</updated>
   <id>http://hiendinhngoc.com/</id>
