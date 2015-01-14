@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Media Queries | Hien Dinh Ngoc Blog]]></title>
   <link href="http://hiendinhngoc.com/blog/categories/media-queries/atom.xml" rel="self"/>
   <link href="http://hiendinhngoc.com/"/>
-  <updated>2015-01-14T14:24:29+07:00</updated>
+  <updated>2015-01-14T14:46:36+07:00</updated>
   <id>http://hiendinhngoc.com/</id>
   <author>
     <name><![CDATA[Hien Dinh Ngoc]]></name>
@@ -18,16 +18,16 @@
     <link href="http://hiendinhngoc.com/blog/2015/01/14/how-to-import-mysql-databases-from-terminal/"/>
     <updated>2015-01-14T11:26:49+07:00</updated>
     <id>http://hiendinhngoc.com/blog/2015/01/14/how-to-import-mysql-databases-from-terminal</id>
-    <content type="html"><![CDATA[<p>The best way to import an existed database to an ubuntu machine is:
-* Open terminal (<code>Ctrl + Alt + T</code>)
-* Open mysql (<code>$mysql or $mysql -u username -p password</code>)
-* Create your own database(ex: mydatabase)
-* Exit mysql(by typing <code>exit</code> or <code>\q</code>)
+    <content type="html"><![CDATA[<p>The best way to import an existed database to an ubuntu machine is:<br/>
+* Open terminal (<code>Ctrl + Alt + T</code>)<br/>
+* Open mysql (<code>$mysql or $mysql -u username -p password</code>)<br/>
+* Create your own database(ex: mydatabase)<br/>
+* Exit mysql(by typing <code>exit</code> or <code>\q</code>)<br/>
 * <code>$mysql -u username -ppassword mydatabase &lt; exitedfile.sql</code></p>
 
 <h3>Table names problems in MySQL</h3>
 
-<p>When the ProcessMaker workspaces from Windows are restored into Linux, the table names of the workspace databases will be in lowercase. ProcessMaker will not be able to read these tables correctly because it expects the table names to be in uppercase. To work around this problem, either configure MySQL tables to be case insensitive or change the name of the tables of the backup to upper-case with a text editor.</p>
+<p>:When the ProcessMaker workspaces from Windows are restored into Linux, the table names of the workspace databases will be in lowercase. ProcessMaker will not be able to read these tables correctly because it expects the table names to be in uppercase. To work around this problem, either configure MySQL tables to be case insensitive or change the name of the tables of the backup to upper-case with a text editor.:</p>
 
 <h4><strong>Configuring MySQL Tables to be Case Insensitive</strong></h4>
 
@@ -47,10 +47,11 @@ Then restart MySQL (or reboot):<br/>
 
 <h4>Changing the rp_workflow database name</h4>
 
-<p>Change the rp_workflow database name by executing the following command:<br/>
-<code>mysqldump -u *user -password* rpworkflow | mysql -u *user* -'password *rp_workflow*</code><br/>
+<p>Change the rp_workflow database name by executing the following command:</p>
+
+<blockquote><p>mysqldump -u <em>user -password</em> rpworkflow | mysql -u <em>user</em> -&lsquo;password <em>rp_workflow</em><br/>
 Finally run the processmaker upgrade command:<br/>
-<code>php-f processmaker upgrade</code></p>
+<code>php-f processmaker upgrade</code></p></blockquote>
 ]]></content>
   </entry>
   
