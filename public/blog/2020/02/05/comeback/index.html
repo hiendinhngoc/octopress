@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hien Dinh Ngoc Blog</title>
+  <title>Comeback - Hien Dinh Ngoc Blog</title>
   <meta name="author" content="Hien Dinh Ngoc">
 
   
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://hiendinhngoc.com">
+  <link rel="canonical" href="http://hiendinhngoc.com/blog/2020/02/05/comeback">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Hien Dinh Ngoc Blog" type="application/atom+xml">
@@ -64,15 +64,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2020/02/05/comeback/">Comeback</a></h1>
+      <h1 class="entry-title">Comeback</h1>
     
     
       <p class="meta">
@@ -88,82 +85,54 @@
   </header>
 
 
-  <div class="entry-content"><p>Just want to announce that I come back!</p>
+<div class="entry-content"><p>Just want to announce that I come back!</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Hien Dinh Ngoc</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2020-02-05T23:19:22+07:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>5</span><span class='date-suffix'>th</span>, <span class='date-year'>2020</span></span> <span class='time'>11:19 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/thought/'>thought</a>
+  
+</span>
+
+
+    </p>
     
-      <h1 class="entry-title"><a href="/blog/2015/01/14/how-to-import-mysql-databases-from-terminal/">How to Import MySQL Databases From Terminal</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-01-14T11:26:49+07:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:26 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The best way to import an existed database to an ubuntu machine is:<br/>
-* Open terminal (<code>Ctrl + Alt + T</code>)<br/>
-* Open mysql (<code>$mysql or $mysql -u username -p password</code>)<br/>
-* Create your own database(ex: mydatabase)<br/>
-* Exit mysql(by typing <code>exit</code> or <code>\q</code>)<br/>
-* <code>$mysql -u username -ppassword mydatabase &lt; exitedfile.sql</code></p>
-
-<h3>Table names problems in MySQL</h3>
-
-<p>:When the ProcessMaker workspaces from Windows are restored into Linux, the table names of the workspace databases will be in lowercase. ProcessMaker will not be able to read these tables correctly because it expects the table names to be in uppercase. To work around this problem, either configure MySQL tables to be case insensitive or change the name of the tables of the backup to upper-case with a text editor.:</p>
-
-<h4><strong>Configuring MySQL Tables to be Case Insensitive</strong></h4>
-
-<p>Go the Linux/UNIX server and edit the MySQL configuration file, which is generally found at <code>/etc/mysql/my.cnf, /etc/my.cnf or ~/my.cnf</code><br/>
-Add the following line to the my.cnf configuration file:<br/>
-<code>lower_case_table_names=1</code><br/>
-Then restart MySQL (or reboot):<br/>
-<strong>Debian/Ubuntu/SuSE</strong><br/>
-<code>/etc/init.d/mysql restart</code><br/>
-<strong>Red Hat/CentOS/Fedora:</strong><br/>
-<code>/etc/init.d/mysqld restart</code></p>
-
-<h4>Restoring ProcessMaker Database on Linux</h4>
-
-<p>Run the following command to restore Databases:<br/>
-<code>mysql -u root - &lt; name_backup.sql</code></p>
-
-<h4>Changing the rp_workflow database name</h4>
-
-<p>Change the rp_workflow database name by executing the following command:</p>
-
-<blockquote><p>mysqldump -u <em>user -password</em> rpworkflow | mysql -u <em>user</em> -&lsquo;password <em>rp_workflow</em><br/>
-Finally run the processmaker upgrade command:<br/>
-<code>php-f processmaker upgrade</code></p></blockquote>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://hiendinhngoc.com/blog/2020/02/05/comeback/" data-via="hiendinhngoc" data-counturl="http://hiendinhngoc.com/blog/2020/02/05/comeback/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/14/how-to-import-mysql-databases-from-terminal/" title="Previous Post: How to import MySQL databases from terminal">&laquo; How to import MySQL databases from terminal</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -216,6 +185,7 @@ Finally run the processmaker upgrade command:<br/>
 
   
 </aside>
+
 
     </div>
   </div>

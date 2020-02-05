@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://hiendinhngoc.com/blog/2015/01/14/how-to-import-mysql-databases-from-terminal/</loc>
-    <lastmod>2015-01-14T11:26:49+07:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://hiendinhngoc.com/blog/archives/</loc>
-    <lastmod>2015-01-14T14:46:36+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://hiendinhngoc.com/</loc>
-    <lastmod>2015-01-14T14:46:36+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://hiendinhngoc.com/about/</loc>
-    <lastmod>2015-01-14T14:46:36+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://hiendinhngoc.com/about/</loc>
-    <lastmod>2015-01-14T14:46:36+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<url>
+<loc>http://hiendinhngoc.com/blog/2020/02/05/comeback/</loc>
+<lastmod>2020-02-05T23:19:22+07:00</lastmod>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/blog/2015/01/14/how-to-import-mysql-databases-from-terminal/</loc>
+<lastmod>2015-01-14T11:26:49+07:00</lastmod>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/</loc>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/about/</loc>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/blog/archives/</loc>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/about/</loc>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/blog/categories/css3/</loc>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/blog/categories/sass/</loc>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/blog/categories/media-queries/</loc>
+</url>
+<url>
+<loc>http://hiendinhngoc.com/blog/categories/thought/</loc>
+</url>
 </urlset>
